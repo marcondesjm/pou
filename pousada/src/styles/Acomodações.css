@@ -1,0 +1,36 @@
+.accommodations-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center; /* Centraliza os conteúdos horizontalmente */
+}
+
+.logo {
+  width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.accommodation {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  text-align: center; /* Centraliza o texto e imagem do conteúdo */
+}
+
+.accommodation img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.accommodation h3 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.accommodation p {
+  margin: 0;
+}

@@ -1,0 +1,27 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.pousada-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+}
